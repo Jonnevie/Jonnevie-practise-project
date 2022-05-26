@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonynmous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>List Skills</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><i class="fas fa-gem"></i>JONNEVIE</a>
+       
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="./skills.html" class="navbar__links">Skills</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Call Me</a>
+                </li>
+            </ul>
+        </div> 
+     </nav>
+    <div class="skills">
+        <h1>New Skills:</h1>
+    
+        <hr>
+        <h2 id="skills-heading">Tables</h2>
+        <p>Hi there, I'm learning and practising coding HTML tables.</p>
+        <br>
+        <table class="tables">
+            <thead>
+                <td>Skill</td>
+                <td>Stars</td>
+                <td>Comments </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>⭐⭐⭐ / ⭐⭐⭐⭐⭐</td>
+                    <td>Feeling good about HTML, can't wait to do more with it!</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>⭐ / ⭐⭐⭐⭐⭐</td>
+                    <td>Just starting to dabble in CSS!</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td></td>
+                    <td>Okay, I know nothing about Javascript so far. Excited to learn though!</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <br>
+<hr>
+    <div class="forms">
+        <h2 id="skills-heading">Forms</h2>
+        <p>Here, I'll practise coding some forms:</p>
+        <form action="/" method="GET">
+
+            <label for="Name">Name:</label>
+            <input type="textbox" id="name" class="name" placeholder="Jonnevie Cheok">
+            <br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" class="birthday">
+            <br>
+            <label for="favourite-color">Favourite Colour</label>
+            <input type="color">
+            <br>
+            <label for="animal">Favourite Pet:</label>
+            <select name="animal" id="animal">
+                <option for="animal" value="dog">Dog</option>
+                <option for="animal" value="cat">Cat</option>
+                <option for="animal" value="newt">Newt</option>
+                <option for="animal" value="chicken">Chicken</option>
+                <option for="animal" value="mouse">Mouse</option>
+                <option for="animal" value="koala">Koala</option>
+                <option for="animal" value="unicorn">Unicorn</option>
+                <option for="animal" value="elephant">Elephant</option>
+            </select>
+            <br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender" value="girl">Girl</input>
+            <input type="radio" value="boy" name="gender">Boy</input>
+            <br><br>
+            <label for="herbs">Do you like coriander?</label>
+            <br>
+            <label for="coriander">No</label>
+            <input type="checkbox" value="coriander" name="coriander">
+            <label for="parsley">Noo</label>
+            <input type="checkbox" value="corianderno">
+            <label for="parsley">lol no</label>
+            <input type="checkbox" value="coriandernoo">
+            <br><br>
+            <label for="allergies">Do you have any allergies?</label> <br>
+            <textarea id="allergies" name="allergies">Type your Allergies in here!</textarea>
+            <br><br>
+            <button class="main__btn" type="button"><a href="./index.html">Submit</button></a>
+
+            
+        </form>
+    </div>
+
+<script src="./app.js"></script>
+</body>
+</html>

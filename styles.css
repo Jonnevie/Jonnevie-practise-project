@@ -311,3 +311,30 @@
         align
     }
 }
+
+
+/* Skills section of site */
+.skills {
+    text-align: center;
+}
+
+.tables {
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  thead {
+      background-color: #f2f2f2;
+  }
+
+.forms {
+    text-align: center;
+}
+
+#skills-heading {
+    padding: 20px;
+}
