@@ -25,7 +25,7 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Home</a>
+                    <a href="./index.html" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
                     <a href="./skills.html" class="navbar__links">Skills</a>
@@ -39,18 +39,22 @@
             </ul>
         </div> 
      </nav>
+
+     <!-- This part is for me to practise my coding skills -->
+
     <div class="skills">
-        <h1>New Skills:</h1>
-    
+        <h1 id="skills-heading">New Skills:</h1>
+        <p class="skills-paragraph">This is my coding playground, where I document and try out what I've learned. <br>
+            Welcome, and take a look around :)</p>
         <hr>
         <h2 id="skills-heading">Tables</h2>
-        <p>Hi there, I'm learning and practising coding HTML tables.</p>
-        <br>
+        <p class="skills-paragraph">Hi there, I'm learning about, and practising coding HTML tables. <br>I've also taken the liberty of adding some style to the otherwise drab default table.</p>
+        
         <table class="tables">
             <thead>
-                <td>Skill</td>
-                <td>Stars</td>
-                <td>Comments </td>
+                <td> Language </td>
+                <td>Gold Stars</td>
+                <td>Cheeky Comments </td>
             </thead>
             <tbody>
                 <tr>
@@ -64,8 +68,13 @@
                     <td>Just starting to dabble in CSS!</td>
                 </tr>
                 <tr>
+                    <td>SQL</td>
+                    <td>/⭐⭐⭐⭐⭐</td>
+                    <td>Not sure if I even want to venture into the backend.</td>
+                </tr>
+                <tr>
                     <td>JS</td>
-                    <td></td>
+                    <td>/⭐⭐⭐⭐⭐</td>
                     <td>Okay, I know nothing about Javascript so far. Excited to learn though!</td>
                 </tr>
                 
@@ -73,10 +82,11 @@
         </table>
     </div>
     <br>
+
 <hr>
     <div class="forms">
         <h2 id="skills-heading">Forms</h2>
-        <p>Here, I'll practise coding some forms:</p>
+        <p class="skills-paragraph">Here, I'll practise coding some forms:</p>
         <form action="/" method="GET">
 
             <label for="Name">Name:</label>
@@ -114,14 +124,14 @@
             <input type="checkbox" value="coriandernoo">
             <br><br>
             <label for="allergies">Do you have any allergies?</label> <br>
-            <textarea id="allergies" name="allergies">Type your Allergies in here!</textarea>
+            <textarea id="allergies" name="allergies">Type your Allergies in here! e.g. Coriander</textarea>
             <br><br>
             <button class="main__btn" type="button"><a href="./index.html">Submit</button></a>
 
             
         </form>
     </div>
-
+<br>
 <script src="./app.js"></script>
 </body>
 </html>
